@@ -4,9 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'mocorito': ['Rubik'],
-        'base': ['Poppins'],
-        'cursiva': ['Just Another Hand']
+        'base': ['Libre Caslon Text'],
+      },
+      colors: {
+        'ciobes': '#67a68d',
+        'oxford': '#8290a0',
+        'letras': '#373435'
+      },
+      backgroundImage: {
+        'base-back': "url('/img/fondo-gris.jpg')",
       }
     }
   },
